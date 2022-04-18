@@ -1,0 +1,151 @@
+body {
+    background-color: #421e1ee5;
+    background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat left top;
+    background-position: center center;
+    background-attachment: fixed;
+    margin-top: 10%; 
+    color: #350707;
+   }
+
+#nav-bar{
+        position: fixed;
+        top: 0px;
+        right: 0.01px;
+        float: auto;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: auto;
+        background-color: #111010;
+        
+}
+#video{
+    align-items: center;
+    width: 70%;
+    position: relative;
+    top: 200%;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+#header{
+    display: flex;
+    flex-wrap:nowrap;
+    background-color: rgba(110, 40, 40, 0.521);
+}
+#header-img{
+    background-image: url("https://w7.pngwing.com/pngs/719/100/png-transparent-colgate-palmolive-logo-company-oral-hygiene-colgate-palmolive-logo-blue-text-banner-thumbnail.png");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    opacity: 0.5;
+}
+#nav-bar ul li a {
+    color: #333;
+    font-size: 1.2rem;
+  }
+
+nav li{
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    border-right: 1px solid gray;
+    font-weight: 600;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+#footer {
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    line-height: 75%;
+    font-size: 30px;
+    border-right: 3px solid gray;
+    font-weight: 600;
+	font-family: 'Titillium Web', sans-serif;
+    padding: 20px;
+}
+h2{
+    color: #fcfafa;
+}
+.desc{
+    margin: 1em 0 0.5em 0;
+	font-weight: 600;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 14px;
+	line-height: 40px;
+	
+	color: #355681;
+	box-shadow: 
+	inset 0 0 0 1px rgba(53,86,129, 0.4), 
+	inset 0 0 5px rgba(53,86,129, 0.5),
+	inset -285px 0 35px rgb(41, 10, 10);
+	border-radius: 0 10px 0 10px;
+    text-align: center;
+    align-items: center;
+  
+}
+	
+.flex-box{
+    flex-direction: row;
+    text-align: center;
+    display:inline;
+}
+.icons{
+    text-align: center;
+    display:inline;
+    text-decoration: none;
+    list-style-type: none;
+}
+#submit{
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    background: transparent;
+}
+#submit:hover{
+    background-color: #008CBA;
+    color: white;
+}
+#email{
+    border: 3px ridge #FFA5A5;
+	outline:0;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    left: 50%;
+    right: 50%;
+    text-align: center;
+    width: 50vw;
+    margin-left: 25vw;
+    height: 40px;
+    
+}
+.textPrompt{
+    font-weight: 600;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+    left: 50%;
+    right: 50%;
+    text-align: center;
+    width: 50vw;
+    margin-left: 25vw;
+   	height:40px;
+}
+form input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+}
